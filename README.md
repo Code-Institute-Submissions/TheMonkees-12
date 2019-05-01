@@ -2,7 +2,7 @@
 
 A static (front-end only) website for about the 1960's band The Monkees. A live demo can be found [here](https://ngeorgi3v.github.io/TheMonkees/).
 
-![Design Mockup](https://imgur.com/5eHO2sL "Mockup")
+![alt text](https://imgur.com/5eHO2sL "Mockup")
 
 ## UX
 - This website is for the fans of the music band, and for all potential fans. The objective is the music of the band reaching to more people. The way I try to get more fans is by making a flashy and eye-catching design and adding extra attention to the videos and music files attached to the website.
