@@ -81,7 +81,7 @@ A static (front-end only) website for about the 1960's band The Monkees. A live 
 - HTML 5
 - CSS 3
 - Javascript ( ES6 )
-    - Smoth scrolling effect to anchor points
+    - Sticky navigation in desktop version of the site
 - BOOTSTRAP 3
     - Site layout, navigation and photos
 - jQuery
