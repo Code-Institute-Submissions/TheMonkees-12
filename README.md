@@ -26,15 +26,15 @@ A static (front-end only) website for about the 1960's band The Monkees. A live 
 - [Raleway](https://fonts.google.com/specimen/Raleway) - for headings and captions on the site
 
 ### Colours
-![Titles and button color](https://imgur.com/TZ2CAgy "Titles and button color")
+![Titles and button color](https://i.imgur.com/TZ2CAgy.png "Titles and button color")
 - For titles and button hover effects
-![Image overlay effect color](https://imgur.com/hgrxhkc "Image overlay effect color")
+![Image overlay effect color](https://imgur.com/hgrxhkc.png "Image overlay effect color")
 - For image overlay effects
-![BG color](https://imgur.com/3P9zkUw "BG Color")
+![BG color](https://imgur.com/3P9zkUw.png "BG Color")
 - For background color and text color at some places
-![Footer BG color](https://imgur.com/MsnLzT1 "Footer BG Color")
+![Footer BG color](https://imgur.com/MsnLzT1.png "Footer BG Color")
 - For footer background color
-![Caption color](https://imgur.com/Lasau3G "Caption color")
+![Caption color](https://imgur.com/Lasau3G.png "Caption color")
 - For captions
 
 ## Features
