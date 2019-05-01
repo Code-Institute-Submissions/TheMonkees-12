@@ -1,0 +1,514 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>The Monkees</title>
+    <link rel="shortcut icon" href="assets/imgs/logo.ico" type="image/x-icon">
+    <!-- Bootstrap css CDN link -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <!-- My custom styles -->
+    <link rel="stylesheet" href="assets/styles/main.css">
+    <!-- Icons from font awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+</head>
+<body>
+    <!-- NAVIGATION -->
+    <nav class="navbar navbar-default navbar-fixed-top" id="nav">
+        <div class="container-fluid">
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navigation" aria-expanded="false">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="#header">
+                <img src="assets/imgs/logo.png" id="logo" alt="The Monkees logo">
+            </a>
+          </div><!-- /.navbar-header -->
+          <div class="collapse navbar-collapse" id="navigation">
+            <ul class="nav navbar-nav navbar-right">
+              <li><a data-toggle="collapse" data-target="#navigation.in" href="#header">Home</a></li>
+              <li><a data-toggle="collapse" data-target="#navigation.in" href="#about-us">About Us</a></li>
+              <li><a data-toggle="collapse" data-target="#navigation.in" href="#music_and_video">Music & Video</a></li>
+              <li><a data-toggle="collapse" data-target="#navigation.in" href="#news">News</a></li>
+              <li><a data-toggle="collapse" data-target="#navigation.in" href="#contact">Contact</a></li>
+            </ul>
+          </div><!-- /.navbar-collapse -->
+        </div><!-- /.container-fluid -->
+    </nav>
+    <!-- HEADER -->
+    <div class="jumbotron" id="header">
+        <h2 class="text-center text-uppercase heading ">Hey, Hey, Welcome to our website</h2>
+        <p class="text-center">We are THE MONKEES and this is our website, let us show you around</p>
+        <p><a class="btn btn-primary btn-lg .custom-btn" href="#music_and_video" role="button">music & videos</a>
+            <a class="btn btn-primary btn-lg .custom-btn" href="#news" role="button">latest news</a></p>
+        <p id="down-arrow">	<a href="#about-us"><i class="fa fa-angle-double-down"></i></a></p>
+    </div><!-- /.jumbotron -->
+    <div class="clear"></div>
+    <!-- ABOUT US -->
+    <div class="container-fluid anchor" id="about-us">
+        <h2 class="heading">Who Are we?</h2>
+        <img src="assets/imgs/separator.png" class="img img-responsive article_separator" alt="">
+        <div class="row">
+            <div class="col-sm-3">
+                <div class="avatar-container">
+                    <div class="avatar-overlay"></div>
+                    <img src="assets/imgs/md.jpg" alt="Micky Dolenz" class="avatar">
+                </div><!-- /.avatar-container -->
+            </div><!-- /.col-sm-3 -->
+            <div class="col-sm-offset-1 col-sm-8 col-md-offset-1 col-md-8 col-lg-offset-1 col-lg-8">    
+                <h3 class="heading">Micky Dolenz</h3>
+                <p class="caption text-center">Vocalist and drummer</p>
+                <p>Born in the 8th of March 1945, he is an American actor, musician, television director, radio personality and theater director, best knows as a vocalist and drummer of the 1960's pop/rock band the Monkees.</p>
+            </div><!-- ./col-sm-9 -->
+        </div><!-- /.row-->
+        <div class="row">
+            <div class="col-sm-3">
+                <div class="avatar-container">
+                    <div class="avatar-overlay"></div>
+                    <img src="assets/imgs/mn.jpg" alt="Michael Nesmith" class="avatar">
+                </div><!-- /.avatar-container -->
+            </div><!-- /.col-sm-3 -->
+            <div class="col-sm-offset-1 col-sm-8 col-md-offset-1 col-md-8 col-lg-offset-1 col-lg-8">
+                <h3 class="heading">Michael Nesmith</h3>
+                <p class="caption text-center">Vocalist and drummer</p>
+                <p>Born in the 30th of December 1942, he is an American musician, songwriter, actor, producer, novelist, businessman, and philanthropist, best known as a member of the pop rock band the Monkees and co-star of the TV series The Monkees (1966–1968).</p>
+            </div><!-- ./col-sm-9 -->
+        </div><!-- /.row-->
+        <div class="row">
+            <div class="col-sm-3">
+                <div class="avatar-container">
+                    <div class="avatar-overlay"></div>
+                    <img src="assets/imgs/pt.jpg" alt="Peter Tork" class="avatar">
+                </div><!-- /.avatar-container -->
+            </div><!-- /.col-sm-3 -->
+            <div class="col-sm-offset-1 col-sm-8 col-md-offset-1 col-md-8 col-lg-offset-1 col-lg-8">
+                <h3 class="heading">Peter Tork</h3>
+                <p class="caption text-center">Keybordist and bass guitarist</p>
+                <p>Born in the 13th of February 1942, he was an American musician, composer and actor, best known as the keyboardist and bass guitarist of the Monkees.</p>
+            </div><!-- ./col-sm-9 -->
+        </div><!-- /.row-->
+        <div class="row">
+            <div class="col-sm-3">
+                <div class="avatar-container">
+                    <div class="avatar-overlay"></div>
+                    <img src="assets/imgs/dj.jpg" alt="Davy Jones" class="avatar">
+                </div><!-- /.avatar-container -->
+            </div><!-- /.col-sm-3 -->
+            <div class="col-sm-offset-1 col-sm-8 col-md-offset-1 col-md-8 col-lg-offset-1 col-lg-8">
+                <h3 class="heading">Davy Jones</h3>
+                <p class="caption text-center">Vocalist</p>
+                <p>Born in the 30th of December 1945, he was an English singer-songwriter, musician, actor and businessman, best known as a member of the band the Monkees, and for starring in the TV series of the same name.</p>
+            </div><!-- ./col-sm-9 -->
+        </div><!-- /.row-->
+    </div><!-- /.container -->
+
+    <!-- MUSIC & VIDEO -->
+    <div id="music_and_video"></div>
+    <a href="#" data-toggle="modal" data-target="#video">
+        <div class="container-fluid overlayed-container">
+            <div class="row">
+                <img src="assets/imgs/video_bg.jpg" class="img img-responsive" alt="">
+                <div class="play-button">
+                    <h3 class="far fa-play-circle"></h3>
+                    <h3>Play our video</h3>
+                </div><!-- /.play-button -->
+            </div><!-- ./row -->
+        </div><!-- /.video-container -->
+    </a>
+
+    <!-- Video Modal -->
+    <div class="modal fade" id="video" tabindex="-1" role="dialog">
+        <div class="modal-dialog" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+              <h4 class="modal-title">The Monkees</h4>
+            </div><!-- /.modal-header -->
+            <div class="modal-body">
+                <videoc>
+                 controls>
+                    <source src="assets/video/TheMonkees.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+            </div><!-- modal-body -->
+          </div><!-- /.modal-content -->
+        </div><!-- /.modal-dialog -->
+    </div><!-- /.modal -->
+
+
+    <div class="caption text-center text-uppercase">Our greatest hits</div>
+    <h2 class="heading"> Listen to our music</h2>
+    <img src="assets/imgs/separator.png" class="img img-responsive article_separator" alt="">
+    <div class="container-fluid albums-container">
+        <div class="row albums">
+            <div class="col-xs-6 col-sm-6 col-md-3 col-lg-3">
+                <a href="#" data-toggle="modal" data-target="#song-thebest" >
+                    <div class="album_container">
+                        <img class="big-thumbnail big-album" src="assets/imgs/big_album.jpg" alt="The very best from the monkees">
+                        <p class="caption">The very best from the monkees</p>
+                    </div><!-- /.album-container -->
+                </a>
+            </div> <!-- /.col -->
+            <div class="col-xs-6 col-sm-6 col-md-3 col-lg-3">
+                <a href="#" data-toggle="modal" data-target="#song-stepinstone" >
+                    <div class="album_container">
+                        <img class="small-thumbnail" src="assets/imgs/stepinstone_img.jpg" alt="Stepiinstone">
+                        <p class="caption">Stepin' stone</p>
+                    </div><!-- /.album-container -->
+                </a>
+                <a href="#" data-toggle="modal" data-target="#song-themonkees">
+                    <div class="album_container">
+                        <img class="small-thumbnail" src="assets/imgs/the_monkees_img.jpg" alt="The Monkees">
+                        <p class="caption">The monkees</p>
+                    </div><!-- /.album-container -->
+                </a>
+            </div><!-- /.col -->
+            <div class="col-xs-6 col-sm-6 col-md-3 col-lg-3">
+                <a href="#" data-toggle="modal" data-target="#song-imabeliever">
+                    <div class="album_container">
+                        <img class="small-thumbnail" src="assets/imgs/imabeliever_img.jpg" alt="Im a believer">
+                        <p class="caption">I'm a believer</p>
+                    </div><!-- /.album-container -->
+                </a>
+                <a href="#" data-toggle="modal" data-target="#song-daydreambeliever">
+                    <div class="album_container">
+                        <img class="small-thumbnail" src="assets/imgs/daydreambelliever_img.jpg" alt="Day dream believer">
+                        <p class="caption">Day Dream believer</p>
+                    </div><!-- /.album-container -->
+                </a>
+            </div><!-- /.col-->
+            <div class="col-xs-6 col-sm-6 col-md-3 col-lg-3">
+                <a href="#" data-toggle="modal" data-target="#song-clarksville">
+                    <div class="album_container">
+                        <img class="small-thumbnail" src="assets/imgs/clarksville_img.jpg" alt="Clarksville">
+                        <p class="caption">Last train to clarksville</p>
+                    </div><!-- /.album-container -->
+                </a>
+                <a href="#" data-toggle="modal" data-target="#song-alittlebit">
+                    <div class="album_container">
+                        <img class="small-thumbnail" src="assets/imgs/alittlebitme_img.jpg" alt="A little bit me, a little bit you">
+                        <p class="caption">A little bit me, a little bit you</p>
+                    </div><!-- /.album-container -->
+                </a>
+            </div><!-- /.col -->
+        </div><!-- /.albums -->
+    </div><!-- /.albums-container -->
+
+    <!-- Song modal -->
+    <div class="modal fade" id="song-thebest" tabindex="-1" role="dialog">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                    <h4 class="modal-title">The Monkees - The Origins (FULL ALBUM - BEST OF POP) </h4>
+                </div><!-- /.modal-header -->
+                <div class="modal-body">
+                        <img src="assets/imgs/big_album.jpg" alt="The very best from the monkees" class="img img-responsive">
+                        <audio controls>
+                            <source src="assets/music/BestOfPop.mp3" type="audio/mpeg">
+                            Your browser does not support the audio element.
+                        </audio>
+                </div><!-- modal-body -->
+            </div><!-- /.modal-content -->
+        </div><!-- /.modal-dialog -->
+    </div><!-- /.modal -->
+
+    <!-- Song modal -->
+    <div class="modal fade" id="song-stepinstone" tabindex="-1" role="dialog">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                    <h4 class="modal-title">The Monkees - Stepin' Stone</h4>
+                </div><!-- /.modal-header -->
+                <div class="modal-body">
+                        <img src="assets/imgs/stepinstone_img.jpg" alt="Stepiinstone" class="img img-responsive">
+                        <audio controls>
+                            <source src="assets/music/SteppingStone.mp3" type="audio/mpeg">
+                            Your browser does not support the audio element.
+                        </audio>
+                </div><!-- modal-body -->
+            </div><!-- /.modal-content -->
+        </div><!-- /.modal-dialog -->
+    </div><!-- /.modal -->
+
+    <!-- Song modal -->
+    <div class="modal fade" id="song-themonkees" tabindex="-1" role="dialog">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                    <h4 class="modal-title">The Monkees - Hey Hey We're the Monkees</h4>
+                </div><!-- /.modal-header -->
+                <div class="modal-body">
+                        <img src="assets/imgs/the_monkees_img.jpg" alt="The Monkees" class="img img-responsive">
+                        <audio controls>
+                            <source src="assets/music/TheMonkees.mp3" type="audio/mpeg">
+                            Your browser does not support the audio element.
+                        </audio>
+                </div><!-- modal-body -->
+            </div><!-- /.modal-content -->
+        </div><!-- /.modal-dialog -->
+    </div><!-- /.modal -->
+    <!-- Song modal -->
+
+
+    <div class="modal fade" id="song-imabeliever" tabindex="-1" role="dialog">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                    <h4 class="modal-title">The Monkees - I'm a believer</h4>
+                </div><!-- /.modal-header -->
+                <div class="modal-body">
+                        <img src="assets/imgs/imabeliever_img.jpg" alt="Im a believer" class="img img-responsive">
+                        <audio controls>
+                            <source src="assets/music/ImABeliever.mp3" type="audio/mpeg">
+                            Your browser does not support the audio element.
+                        </audio>
+                </div><!-- modal-body -->
+            </div><!-- /.modal-content -->
+        </div><!-- /.modal-dialog -->
+    </div><!-- /.modal -->
+
+
+    <!-- Song modal -->
+    <div class="modal fade" id="song-daydreambeliever" tabindex="-1" role="dialog">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                    <h4 class="modal-title">The Monkees - Day dream believer</h4>
+                </div><!-- /.modal-header -->
+                <div class="modal-body">
+                        <img src="assets/imgs/daydreambelliever_img.jpg" alt="Day dream believer" class="img img-responsive">
+                        <audio controls>
+                            <source src="assets/music/DaydreamBeliever.mp3" type="audio/mpeg">
+                            Your browser does not support the audio element.
+                        </audio>
+                </div><!-- modal-body -->
+            </div><!-- /.modal-content -->
+        </div><!-- /.modal-dialog -->
+    </div><!-- /.modal -->
+
+    <!-- Song modal -->
+    <div class="modal fade" id="song-clarksville" tabindex="-1" role="dialog">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                    <h4 class="modal-title">The Monkees - Last train to Clarksville</h4>
+                </div><!-- /.modal-header -->
+                <div class="modal-body">
+                        <img src="assets/imgs/clarksville_img.jpg" alt="Clarksville" class="img img-responsive">
+                        <audio controls>
+                            <source src="assets/music/Clarksville.mp3" type="audio/mpeg">
+                            Your browser does not support the audio element.
+                        </audio>
+                </div><!-- modal-body -->
+            </div><!-- /.modal-content -->
+        </div><!-- /.modal-dialog -->
+    </div><!-- /.modal -->
+
+    <!-- Song modal -->
+    <div class="modal fade" id="song-alittlebit" tabindex="-1" role="dialog">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                    <h4 class="modal-title">The Monkees - A little bit me, A little bit you</h4>
+                </div><!-- /.modal-header -->
+                <div class="modal-body">
+                        <img src="assets/imgs/alittlebitme_img.jpg" alt="A little bit me, a little bit you" class="img img-responsive">
+                        <audio controls>
+                            <source src="assets/music/ALittleBit.mp3" type="audio/mpeg">
+                            Your browser does not support the audio element.
+                        </audio>
+                </div><!-- modal-body -->
+            </div><!-- /.modal-content -->
+        </div><!-- /.modal-dialog -->
+    </div><!-- /.modal -->
+
+    <!-- BLOG -->
+    <div class="caption text-center text-uppercase" id="news">What we post</div>
+    <h2 class="heading"> Our latest news</h2>
+    <img src="assets/imgs/separator.png" class="img img-responsive article_separator" alt="">
+    <div class="container blog">
+        <div class="row">
+            <div class="article_container">
+                <div class="col-md-6 article_image overlayed-container">
+                    <img src="assets/imgs/rip_peter.jpg" alt="">
+                </div> <!-- /.article_image -->
+                <article class="col-md-7 col-md-offset-5">
+                    <div class="date">
+                        <strong>23</strong> <br> FEB
+                    </div><!--  /.date -->
+                    <h4 class="heading">R.I.P Peter Tork</h4>
+                    <p class="article_text">In 1968, he became the first member of The Monkees to bid the band adieu. Now, at the age of 77, Peter Tork has become the second member of the band to whom we must bid farewell.
+                    Per The New York Times, Tork’s death was confirmed by his son, Ivan Iannoli, who said the cause was complications of a rare form of cancer that was first diagnosed in 2009, but a more emotional confirmation – one that we can all surely appreciate – came via a post on Tork’s official Facebook page:</p>
+                    <p><a class="btn btn-primary btn-lg custom-btn" href="javascript:void(0);"  role="button">Read more</a></p>
+                    <p>	<a href="#"><i class="fa fa-angle-double-down"></i></a></p>
+                </article>
+            </div><!-- /.article-container -->
+        </div><!-- /.row -->
+        <div class="row">
+            <div class="article_container">
+                <div class="col-md-6 col-md-offset-6 article_image overlayed-container">
+                    <img src="assets/imgs/monkeesxmas.jpg" alt="">
+                </div><!-- /.article_image-->
+                <article class="col-md-7">
+                    <div class="date">
+                        <strong>20</strong> <br> SEPT
+                    </div><!-- /.date -->
+                    <h4 class="heading">The Monkees To Release Christmas Party,<br>Their First Ever Holiday Album</h4>
+                    <p>The Monkees will celebrate the season with their first holiday album, featuring new vocals by Micky Dolenz, Michael Nesmith, and Peter Tork. The late Davy Jones' unmistakable voice - taken from vintage recordings - also appears on two songs. CHRISTMAS PARTY will be available on CD, digital download, and streaming services on October 12.On CHRISTMAS PARTY, The Monkees put their unmistakable vocal stamp on a wide array of classic Christmas tracks.</p>
+                    <p><a class="btn btn-primary btn-lg custom-btn" href="javascript:void(0);" role="button">Read more</a></p>
+                    <p>	<a href="#"><i class="fa fa-angle-double-down"></i></a></p>
+                </article>
+            </div><!-- /.article-container -->
+        </div><!-- /.row -->
+    </div><!-- /.container -->
+
+    <!-- NEWSLETTER -->
+    <div class="container-fluid overlayed-container" id="newsletter">
+        <div class="row">
+            <img src="assets/imgs/monkees.jpg" id="newsletter_img" class="img img-responsive" alt="">
+            <div class="newsletter-text">
+                <h2>NEWSLETTER</h2>
+                <p class="caption">Subscribe to our newsletter so you dont miss any of the upcomming events and be notifiet any time we post something new on our website!
+                </p>
+                <div class="form-group">
+                    <form onsubmit="alert('Congratulations! You have successfully subscribed to our newsletter!');">
+                        <div class="col-xs-9">
+                            <input type="email" required class="form-control" placeholder="Email addresss" > 
+                        </div><!-- /. col-xs-9 -->
+                        <div class="col-xs-3">
+                            <input type="submit" class="form-control" value="SUBMIT">
+                        </div><!-- col-xs-3 -->
+                    </form>
+                </div><!-- /.form-group -->
+            </div><!-- /.newsletter-text -->
+        </div><!-- ./row -->
+    </div><!-- /.newsletter-container -->
+<br>
+    <!-- CONTACT US -->
+    <div class="caption text-center text-uppercase" id="contact">Contact</div>
+    <h2 class="heading">Get in touch</h2>
+    <img src="assets/imgs/separator.png" class="img img-responsive article_separator" alt="">
+    <div class="container">
+        <div class="row contact">
+            <div class="col-xs-12 col-md-6 col-lg-6 address">
+                <div class="row">
+                    <div class="col-xs-4 col-md-12 col-lg-12 text-center">
+                        <h4 class="heading"> <span class="far fa-envelope-open"></span> Email</h4>
+                        <h1 class="heading far fa-envelope-open"></h1>
+                        <p>www.monkees.com</p>
+                        <p>bsolar@apa-agency.com</p>
+                    </div><!-- /.col-xs-4 -->
+                    <div class="col-xs-4 col-md-12 col-lg-12 text-center">
+                        <h4 class="heading"> <span class="fas fa-phone"></span> Phone</h4>
+                        <h1 class="heading fas fa-phone"></h1>
+                        <p> 310-888-4219 </p>
+                    </div><!-- /.col-xs-4 -->
+                    <div class="col-xs-4 col-md-12 col-lg-12 text-center">
+                        <h4 class="heading"> <span class="fas fa-home"></span> Address</h4>
+                        <h1 class="heading fas fa-home"></h1>
+                        <p>Beverly Hills, CA,
+                            <br/>United States</p>
+                    </div><!-- /.col-xs-4 -->
+                </div><!-- /.row -->
+            </div><!-- /. col-xs-12 -->
+            <div class="col-xs-12 col-md-6 col-lg-6">
+                <div class="form-group">
+                        <form onsubmit="alert('Your message has been successfully send!');">
+                            <input type="text" required placeholder="Name" class="form-control">
+                            <input type="email" required placeholder="Email Address" class="form-control">
+                            <input type="text" required placeholder="Subject" class="form-control">
+                            <textarea cols="30" placeholder="Enter Meesage"  class="form-control"></textarea>
+                            <input type="submit" class="btn btn-primary custom-btn text-uppercase" value="Send Message →">
+                        </form>
+                </div><!-- /.form-group -->
+            </div>
+        </div><!-- /.row -->
+    </div><!-- /.container -->
+    
+    
+    <!-- FOOTER -->
+    <div class="container-fluid footer">
+        <p class="designed_by">DESIGNED BY <a href="#">NGEORGIEV</a></p>
+        <p>Copyright © 2019. all rights reserved</p>
+        <br>
+        <div class="social-icon">
+            <a href="http://monkeesstore.warnermusic.com/music.html" target="_blank"><i class="fab fa-facebook-f"></i></a>
+        </div>
+        <div class="social-icon">
+            <a href="https://twitter.com/monkeesofficial" target="_blank"><i class="fab fa-twitter"></i></a>
+        </div>
+        <div class="social-icon">
+            <a href="https://instagram.com/themonkees" target="_blank"><i class="fab fa-instagram"></i></a>
+        </div>
+        <div class="social-icon">
+            <a href="http://open.spotify.com/artist/320EPCSEezHt1rtbfwH6Ck" target="_blank"><i class="fab fa-spotify"></i></a>
+        </div>
+    </div><!-- /.footer -->
+
+
+    <!-- HIRE US POPUP -->
+    <a href="#contact"><div class="alert alert-warning pop-up" role="alert">
+        <button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <strong>Want to hire us?</strong> Contact us via the form in the website and we can get in touch.</div>
+    </a>
+
+
+    <!-- JQuery (Needed so bootstrap's js can function proprerly) -->
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.min.js"
+      integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+      crossorigin="anonymous"></script>
+    <!-- Bootstrap js ( Needed for basic functionallity of the navigation bar) -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    
+    <!-- JAVASCRIPT HACK FOR NAVBAR BEHAVIOUR -->
+    <script>
+        // The debounce function receives our function as a parameter
+        const debounce = (fn) => {
+
+        // This holds the requestAnimationFrame reference, so we can cancel it if we wish
+        let frame;
+
+        // The debounce function returns a new function that can receive a variable number of arguments
+        return (...params) => {
+        
+        // If the frame variable has been defined, clear it now, and queue for next frame
+        if (frame) { 
+            cancelAnimationFrame(frame);
+        }
+
+        // Queue our function call for the next frame
+        frame = requestAnimationFrame(() => {
+            
+            // Call our function and pass any params we received
+            fn(...params);
+        });
+
+        } 
+        };
+
+        // Reads out the scroll position and stores it in the data attribute
+        // so we can use it in our stylesheets
+        const storeScroll = () => {
+        document.documentElement.dataset.scroll = window.scrollY;
+        }
+
+        // Listen for new scroll events, here we debounce our `storeScroll` function
+        document.addEventListener('scroll', debounce(storeScroll), { passive: true });
+
+        // Update scroll position for first time
+        storeScroll();
+    </script>
+</body>
+</html>
