@@ -19,8 +19,8 @@ A static (front-end only) website for about the 1960's band The Monkees. A live 
     - Ability to send them a message through the contact form in the website.
 
 ### Wireframes
-- Mobile version: [link to image](https://github.com/NGeorgi3v/TheMonkees/tree/master/user%20design%20expririence/Skeleton%20plane) or [link to the Photoshop project](https://drive.google.com/open?id=1ZiJ5VQ-kojZYSDfhKsOPWh8otCkFg8uR)
-- Dekstop version: [link to image](https://github.com/NGeorgi3v/TheMonkees/tree/master/user%20design%20expririence/Skeleton%20plane) or [link to the Photoshop project](https://drive.google.com/open?id=1l3L3kZUe4Ust7Y3ZHdLR27EPGQREfD4f)
+- Mobile version: [link to image](https://github.com/NGeorgi3v/TheMonkees/tree/master/user%20design%20experience/Skeleton%20plane) or [link to the Photoshop project](https://drive.google.com/open?id=1ZiJ5VQ-kojZYSDfhKsOPWh8otCkFg8uR)
+- Dekstop version: [link to image](https://github.com/NGeorgi3v/TheMonkees/tree/master/user%20design%20experience/Skeleton%20plane) or [link to the Photoshop project](https://drive.google.com/open?id=1l3L3kZUe4Ust7Y3ZHdLR27EPGQREfD4f)
 
 ### Fonts
 - [Roboto](https://fonts.google.com/specimen/Roboto) - for most of the text on the site
