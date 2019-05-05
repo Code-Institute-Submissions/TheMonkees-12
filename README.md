@@ -5,7 +5,7 @@ A static (front-end only) website for about the 1960's band The Monkees. A live 
 ![alt text](https://i.imgur.com/5eHO2sL.jpg "Mockup")
 
 ## UX
-- Make sure you say at top of UX section **Please also see 'User Design Experience' folder where you will find my breakdown of Strategy, Scope, Skeleton and Structure plane**
+- **Please also see 'User Design Experience' folder where you will find my breakdown of Strategy, Scope, Skeleton and Structure plane**
 - This website is for the fans of the music band, and for all potential fans. The objective is the music of the band reaching to more people. The way I try to get more fans is by making a flashy and eye-catching design and adding extra attention to the videos and music files attached to the website.
 
 ### User scenario
@@ -21,6 +21,7 @@ A static (front-end only) website for about the 1960's band The Monkees. A live 
 ### Wireframes
 - Mobile version: [link to image](https://github.com/NGeorgi3v/TheMonkees/tree/master/user%20design%20experience/Skeleton%20plane) or [link to the Photoshop project](https://drive.google.com/open?id=1ZiJ5VQ-kojZYSDfhKsOPWh8otCkFg8uR)
 - Dekstop version: [link to image](https://github.com/NGeorgi3v/TheMonkees/tree/master/user%20design%20experience/Skeleton%20plane) or [link to the Photoshop project](https://drive.google.com/open?id=1l3L3kZUe4Ust7Y3ZHdLR27EPGQREfD4f)
+- **Please note that the designs shown are just for demonstration and might not match exactly the actual look of the website!**
 
 ### Fonts
 - [Roboto](https://fonts.google.com/specimen/Roboto) - for most of the text on the site
