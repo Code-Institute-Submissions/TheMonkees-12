@@ -5,6 +5,7 @@ A static (front-end only) website for about the 1960's band The Monkees. A live 
 ![alt text](https://i.imgur.com/5eHO2sL.jpg "Mockup")
 
 ## UX
+- Make sure you say at top of UX section **Please also see 'User Design Experience' folder where you will find my breakdown of Strategy, Scope, Skeleton and Structure plane**
 - This website is for the fans of the music band, and for all potential fans. The objective is the music of the band reaching to more people. The way I try to get more fans is by making a flashy and eye-catching design and adding extra attention to the videos and music files attached to the website.
 
 ### User scenario
